@@ -19,7 +19,8 @@
   "homepage": "https://github.com/Fessaer/frontend-project-lvl1#readme",
   "bin": {
     "code": "brain-games.js",
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.2.1",

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import actionWellcom from '../src/cli.js';
+import * as bin from '../src/cli.js';
 
-actionWellcom();
+bin.actionWell();
+bin.even();
