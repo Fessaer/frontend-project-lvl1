@@ -1,6 +1,6 @@
-# This is a basic workflow to help you get started with Actions
+i# This is a basic workflow to help you get started with Actions
 
-name: linter
+name: Action check Linter
 
 # Controls when the action will run. 
 on:
@@ -26,11 +26,6 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Run make lint
+        run: make lint
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
