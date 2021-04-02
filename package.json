@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Fessaer/frontend-project-lvl1#readme",
   "bin": {
-    "code": "brain-games.js"
+    "code": "brain-games.js",
+    "brain-games": "bin/brain-games.js"
   }
 }
