@@ -18,7 +18,6 @@ export const even = () => {
   };
   let i = 0;
   const values = Object.values(object);
-  console.log(values);
   while (i < values.length) {
     const number = values[i]();
     console.log(`Question: ${number}`);
