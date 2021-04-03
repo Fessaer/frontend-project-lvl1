@@ -2,4 +2,4 @@
 import * as bin from '../src/cli.js';
 
 bin.actionWell();
-bin.even();
+bin.engineProcessing();
