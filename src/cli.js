@@ -36,7 +36,7 @@ export const engineProcessing = (
     if (functToStr(transforString, result) === functToStr(transforString, curret)) {
       console.log('Correct!');
     } else {
-      return console.log(`'${result}' is wrong answer ;(. Correct answer was '${curret}'. Let's try again, ${names}!`);
+      return console.log(`'${result}' is wrong answer ;(. Correct answer was '${curret}'. \n Let's try again, ${names}!`);
     }
   }
   return console.log(`Congratulations, ${names}!`);
