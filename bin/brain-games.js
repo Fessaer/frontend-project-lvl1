@@ -4,4 +4,3 @@ import * as actions from '../src/even.js';
 
 const { evenValue, resultEven, text } = actions;
 bin.actionWell();
-bin.engineProcessing(evenValue, resultEven, text, true);
