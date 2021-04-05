@@ -12,7 +12,7 @@ const generateArr = () => {
   for (let i = 0; i < length; i += 1) {
     result.push(result[result.length - 1] + index);
   }
-  const number = randomNum(0, result.length);
+  const number = randomNum(1, result.length);
   for (let i = 0; i < result.length; i += 1) {
     if (i === number) {
       correctNumb = result[i];
