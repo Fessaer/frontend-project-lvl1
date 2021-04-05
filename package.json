@@ -2,7 +2,6 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Fessaer/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Fessaer/frontend-project-lvl1/actions)",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +17,6 @@
   },
   "homepage": "https://github.com/Fessaer/frontend-project-lvl1#readme",
   "bin": {
-    "code": "brain-games.js",
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
