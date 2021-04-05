@@ -30,6 +30,7 @@ export const engineProcessing = (
     const number = values[i];
     console.log(`Question: ${number()}`);
     const result = readlineSync.question('Your answer: ');
+    console.log(result);
     const curret = func(number(params));
     i += 1;
     const functToStr = (flag, dataStr) => (flag === true ? dataStr : Number(dataStr));
